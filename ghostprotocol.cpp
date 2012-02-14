@@ -43,7 +43,7 @@ void deny(){
 	std::cout << "-------------------------" << "\n";
 	
 	if(tries < MAX_TRIES){
-		std::cout << "Sign in attempt has logged. You may try again " << MAX_TRIES - tries << " time(s).\n";
+		std::cout << "Sign in attempt has been logged. You may try again " << MAX_TRIES - tries << " time(s).\n";
 		tries++;	
 	}else{
 		std::cout << "Maximum tries exceeded. The appropriate authorities have been notified." << "\n";
