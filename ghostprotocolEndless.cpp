@@ -4,6 +4,7 @@
 #include<cstring>
 #include<cstdlib>
 #include<time.h>
+#include<libc.h>
 
 #define MAX_MILLISECONDS_BETWEEN_PRINTS 150
 #define MAX_CHARS_TO_READ 10

@@ -4,6 +4,7 @@
 #include<cstring>
 #include<cstdlib>
 #include<time.h>
+#include<libc.h>
 
 #define MAX_MILLISECONDS_BETWEEN_PRINTS 150
 #define MAX_CHARS_TO_READ 10
@@ -11,7 +12,7 @@
 #define SCREEN_LINES 50
 #define DENY_MIN 42
 #define DENY_MAX 100
-#define DENY_LEVEL 25 
+#define DENY_LEVEL 25
 
 void clear(int numLines){
 
@@ -62,8 +63,6 @@ void grant(){
 	std::cout << "-------------------------" << "\n";
 	
 	std::cout << "Press any key to continue." << "\n";
-
-	exit(0);
 }
 
 void printSomeCharsFromFile(std::ifstream& fileStream){
@@ -153,5 +152,4 @@ int main(int argc, char** argv){
 
 	return 0;
 }
-
 
